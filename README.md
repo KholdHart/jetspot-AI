@@ -1,2 +1,2 @@
-# jet-AI
+# jetspot-AI
 An AI chatbot
