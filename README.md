@@ -1,2 +1,2 @@
-# My-AI
+# jet-AI
 An AI chatbot
