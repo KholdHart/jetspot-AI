@@ -9,7 +9,8 @@ const ChatList = () => {
       <Link to="/">Explore Jetspot AI</Link>
       <Link to="/">Contract</Link>
       <hr />
-      <div className="List">
+      <span className="title">RECENT CHATS</span>
+      <div className="list">
         <Link to="/">My chat title</Link>
         <Link to="/">My chat title</Link>
         <Link to="/">My chat title</Link>

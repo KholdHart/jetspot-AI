@@ -1,7 +1,7 @@
 .chatList {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
 
   hr {
     border: none;
@@ -24,7 +24,7 @@
     overflow: scroll;
   }
 
-  a {
+  a{
     padding: 10px;
     border-radius: 10px;
 
