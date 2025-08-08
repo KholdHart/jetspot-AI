@@ -20,9 +20,12 @@ const RootLayout = () => {
           </Link>
           <div className="user">
 
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
+            <SignedOut>
+          <SignInButton />
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
           </div>
         </header>
         <main>
