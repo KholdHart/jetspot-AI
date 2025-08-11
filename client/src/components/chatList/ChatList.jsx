@@ -3,7 +3,7 @@ import "./chatList.css";
 
 const ChatList = () => {
   return (
-    <div className="chatlist">
+    <div className="chatList">
       <span className="title">DASHBOARD</span>
       <Link to="/dashboard">Create a new chat</Link>
       <Link to="/">Explore Jetspot AI</Link>
