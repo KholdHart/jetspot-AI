@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "imagekit": "^6.0.0",
     "nodemon": "^3.1.10"
   }
 }
