@@ -1,8 +1,14 @@
 import express from "express";
+import ImageKit from "imagekit";
+import cors from "cors";
 
 
 const port = process.env.PORT || 3000;
 const app = express();  // this was missing
+
+app.use(cors({
+  origin:process.env.CLIENT_URL
+  ,}));  // Enable CORS for all routes
 
 const imagekit = new ImageKit({
   urlEndpoint: process.env.IMAGE_KIT_ENDPOINT,
