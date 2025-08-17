@@ -100,6 +100,7 @@ const NewPrompt = ({ data }) => {
     if (!text) return;
 
     add(text, false);
+
   };
 
   // IN PRODUCTION WE DON'T NEED IT

@@ -6,14 +6,17 @@
   "type": "module",
   "scripts": {
     "start": "nodemon --env-file .env index.js",
-     "dev": "nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@clerk/clerk-sdk-node": "^4.13.23",
     "imagekit": "^6.0.0",
+    "mongoose": "^8.17.1",
+    "moongoose": "^0.0.5",
     "nodemon": "^3.1.10"
   }
 }
