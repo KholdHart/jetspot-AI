@@ -1,4 +1,7 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
+import { IKImage } from "imagekitio-react";
+
+
 import './chatPage.css'
 
 const ChatPage = () => {
